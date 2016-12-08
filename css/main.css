@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'bloodynormal';
+    src: url('../fonts/bloody-webfont.woff2') format('woff2'),
+         url('../fonts/bloody-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'sinkin_sans100_thin';
+    src: url('../fonts/sinkinsans-100thin-webfont.woff2') format('woff2'),
+         url('../fonts/sinkinsans-100thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+	padding:0;
+	margin:0;
+	background: url('../img/ocean.jpg') no-repeat center center;
+	background-size: cover;
+}
+#wrapper {
+	width: 75%;
+	margin: 0 auto;
+}
+header{
+	padding: 50px 0;
+	text-align: center;
+	font-family: 'bloodynormal', sans-serif
+}
+
+h1{
+	color:red;
+	text-align: center;
+	font-family: 'bloodynormal', sans-serif;
+}
+h2{
+	color:red;
+	text-align: center;
+	font-family: 'bloodynormal', sans-serif;
+}
+h3{
+	color:red;
+	text-align: center;
+	font-family: 'bloodynormal', sans-serif;
+}
+h4{
+	color:red;
+	text-align: center;
+	font-family: 'bloodynormal', sans-serif;
+}
+h5{
+	color:red;
+	text-align: center;
+	font-family: 'bloodynormal', sans-serif;
+}
+
+li {
+	color: white;
+	text-align: center;
+	font-family: 'sinkin_sans100_thin', sans-serif;
+}
+
+
+
+
+
+
+p{
+	text-align:center;
+	color:#03191E;
+	font-family: 'sinkin_sans100_thin'; , sans-serif
+
+}
+footer{
+	text-align: center;
+	font-family: 'bloodynormal', sans-serif
+}
