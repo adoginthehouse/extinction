@@ -13,16 +13,20 @@
     font-weight: normal;
     font-style: normal;
 
+
 }
 body{
 	padding:0;
 	margin:0;
-	background: url('../img/ocean.jpg') no-repeat center center;
-	background-size: cover;
+	background: 
+		/*url('../img/anchors-bg.png') repeat,*/
+		url('../img/ocean.jpg') no-repeat center center;
+	background-size: /*200px auto,*/ cover;
 }
 #wrapper {
 	width: 75%;
 	margin: 0 auto;
+	background-color: rgba(255,255,255,0.4);
 }
 header{
 	padding: 50px 0;
@@ -57,20 +61,24 @@ h5{
 }
 
 li {
-	color: white;
+	color: red;
 	text-align: center;
 	font-family: 'sinkin_sans100_thin', sans-serif;
 }
 
 
-
+img{
+	display: block;
+	margin:	auto;
+	width:40%;
+}
 
 
 
 p{
 	text-align:center;
-	color:#03191E;
-	font-family: 'sinkin_sans100_thin'; , sans-serif
+	color:red;
+	font-family: 'sinkin_sans100_thin', sans-serif;
 
 }
 footer{
